@@ -1,5 +1,18 @@
-* body {
-  box-sizing: border-box;
+html {
+  font-size: 10px;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 3.85rem;
+}
+
+button {
+  padding: 1rem 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
