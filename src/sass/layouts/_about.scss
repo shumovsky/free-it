@@ -1,0 +1,88 @@
+.about {
+    padding: 5rem 0;
+    background: $color-dark;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title {
+    text-align: center;
+    margin: 0;
+}
+
+.about__text {
+    color: $color-light;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.skills {
+    flex-basis: 48%;
+}
+
+.join {
+    flex-basis: 48%;
+}
+
+.skills__title {
+    color: $color-primary;
+    font-size: 2.45rem;
+}
+.skills__bar {
+    height: 5rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    border: solid 1px $color-light;
+    width: 100%;
+    background-color: $color-light;
+    line-height: 5rem;
+    &:nth-child(4) {
+    margin-bottom: 0;
+    }
+}
+
+.graphic {
+    width: 59%;
+    background: $color-primary;
+}
+
+.html {
+    width: 80%;
+    background: $color-primary;
+}
+
+.jquery {
+    width: 40%;
+    background: $color-primary;
+}
+
+.wordpress {
+    width: 71%;
+    background: $color-primary;
+}
+
+.join {
+    background: $color-light;
+    text-align: center;
+}
+
+.join__title {
+    font-size: 3.85rem;
+    margin-bottom: 2rem;
+}
+
+.join__text {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+}
+
+.join__btn {
+    font-size: 2.2rem;
+    background: $color-primary;
+    &:hover {
+        color: $color-primary;
+        background-color: $color-dark;
+    }
+}

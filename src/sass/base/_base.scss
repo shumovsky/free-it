@@ -1,5 +1,6 @@
 html {
     font-size: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -9,8 +10,23 @@ html {
 
 h3 {
     font-size: 3.85rem;
+    margin: 0;
+}
+
+h4 {
+    font-size: 2.45rem;
+    color: $color-primary;
+}
+
+h5 {
+    padding: .6rem 0 .4rem 0;
+    margin: 0;
+    font-size: 2rem;
+    color: $color-primary;
 }
 
 button {
     padding: 1rem 1.5rem;
+    cursor: pointer;
+    @extend %transition;
 }

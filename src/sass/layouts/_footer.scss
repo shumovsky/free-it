@@ -1,0 +1,29 @@
+.footer {
+    text-align: center;
+    padding: 5rem 0 0 0;
+    background: $color-primary;
+}
+
+.footer__title {
+    font-size: 3.1rem;
+}
+
+.footer__btn {
+    font-size: 2rem;
+    background: $color-primary;
+    margin-bottom: 3rem;
+    &:hover {
+        color: $color-primary;
+        background: $color-dark;
+    }
+}
+
+.rights {
+    text-align: center;
+    font-size: 1.7rem;
+    color: $color-light;
+    background: $color-dark;
+    span {
+        color: $color-primary;
+    }
+}

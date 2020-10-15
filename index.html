@@ -3,73 +3,287 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/sass/style.css" />
     <title>Free-IT</title>
   </head>
   <body>
     <header class="header">
       <div class="wrapper header__wrapper">
-        <div class="logo"></div>
+        <div class="logo">
+          <img src="./src/img/logo.png" alt="loo" class="logo__img" />
+        </div>
         <div class="header__button">
-          <button>Home</button>
-          <button>services</button>
-          <button>portfolio</button>
-          <button>about</button>
-          <button>clients</button>
-          <button>price</button>
-          <button>contact</button>
+          <button class="header__btn">Home</button>
+          <button class="header__btn">services</button>
+          <button class="header__btn">portfolio</button>
+          <button class="header__btn">about</button>
+          <button class="header__btn">clients</button>
+          <button class="header__btn">price</button>
+          <button class="header__btn">contact</button>
         </div>
       </div>
     </header>
     <main>
-      <section class="about">
-        <div class="wrapper about__wrapper">
-          <h3 about__title>What We Do?</h3>
-          <p></p>
-          <div class="layout-3-column"></div>
+      <!-- Weclome -->
+      <section class="welcome">
+        <div class="wrapper welcome__wrapper">
+          <div class="welcome__content">
+            <h3 class="welcome__title">welcome to pluton theme</h3>
+            <p class="welcome__subtitle">clean & responsive</p>
+            <p class="welcome__text">
+              When she reached the first hills of the Italic Mountains, she had
+              a last view back on the skyline of the hometown Bookmarksgrove,
+              the heading of Alphabet Village and the subline of her own road,
+              the Line Lane.
+            </p>
+            <button class="welcome__btn">Download</button>
+          </div>
+          <div class="welcome__img">
+            <img src="./src/img/advertisement/appleGoods.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="what-do">
+        <div class="wrapper what-do__wrapper">
+          <h3 class="what-do__title">What We Do?</h3>
+          <p class="what-do__subtitle">
+            Duis mollis placerat quam, eget laoreet tempor eu. Quisque dapibus
+            in purus in dignissim.
+          </p>
+          <div class="layout-3-column">
+            <div class="column__item">
+              <img
+                class="what-do__img"
+                src="./src/img/whatWeDo/design.png"
+                alt=""
+              />
+              <h4>Modern Design</h4>
+              <p class="what-do__text">
+                We Create modern and clean theme for your business company
+              </p>
+            </div>
+            <div class="column__item">
+              <img
+                class="what-do__img"
+                src="./src/img/whatWeDo/theme.png"
+                alt=""
+              />
+              <h4>Powerfull Theme</h4>
+              <p class="what-do__text">
+                We Create modern and powerful theme with lost animation and
+                features
+              </p>
+            </div>
+            <div class="column__item">
+              <img
+                class="what-do__img"
+                src="/src/img/whatWeDo/cleanCode.png"
+                alt=""
+              />
+              <h4>Clean Code</h4>
+              <p class="what-do__text">
+                We Create modern and powerful html5 and <span>css3</span> code
+                easy for read and customize.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Tools -->
-      <section work>
+      <section class="work">
         <div class="wrapper work__wrapper">
           <h3 class="work__title">Have You Seen our Works?</h3>
-          <p></p>
+          <p class="work__text">
+            Duis mollis placerat quam, eget loareet tellus tempor eu. Quisque
+            dapibus in purus in dignissim.
+          </p>
           <div class="work__button">
             <button>All</button>
             <button>Web</button>
             <button>Photo</button>
             <button>Identity</button>
           </div>
-          <div class="layout-3-column">
-            <img src="./src/img/photos/photo1.png" alt="" />
-            <img src="./src/img/photos/photo2.png" alt="" />
-            <img src="./src/img/photos/photo3.png" alt="" />
-            <img src="./src/img/photos/photo4.png" alt="" />
-            <img src="./src/img/photos/photo5.png" alt="" />
-            <img src="./src/img/photos/photo6.png" alt="" />
-            <img src="./src/img/photos/photo7.png" alt="" />
-            <img src="./src/img/photos/photo8.png" alt="" />
-            <img src="./src/img/photos/photo9.png" alt="" />
+          <div class="grid-3-column">
+            <div class="grid__item">
+              <img src="./src/img/photos/photo1.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo2.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo3.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo4.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo5.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo6.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo7.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo8.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
+            <div class="grid__item">
+              <img src="./src/img/photos/photo9.png" alt="" />
+              <h5>Thumbnail label</h5>
+              <p class="work__describe">Thumbnail caption...</p>
+            </div>
           </div>
         </div>
       </section>
       <section class="employee">
         <div class="wrapper employee__wrapper">
           <h3 class="employee__title">Who We Are?</h3>
-          <p class="employee__text"></p>
+          <p class="employee__text">
+            Duis mollis placerat quam, eget loareet tellus tempor eu. Quisque
+            dapibus in purus in dignissim.
+          </p>
+          <div class="layout-3-column">
+            <div class="column__item who-we">
+              <img
+                class="employee__img"
+                src="./src/img/whoWeAre/photo1.png"
+                alt="photo"
+              />
+              <p class="employee__name">John Doe</p>
+              <div class="employee__ico">
+                <a href=""> <i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="column__item-hover">
+                <p class="hover__title">Copywriting</p>
+                <p class="hover__text">
+                  When you stop expecting people to be perfect, you can like
+                  them for who they ara.
+                </p>
+                <p class="employee__name-hover">John Doe</p>
+                <div class="employee__ico-hover">
+                  <a href=""> <i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+            </div>
+            <div class="column__item who-we">
+              <img
+                class="employee__img"
+                src="./src/img/whoWeAre/photo2.png"
+                alt="photo"
+              />
+              <p class="employee__name">John Doe</p>
+              <div class="employee__ico">
+                <a href=""> <i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="column__item-hover">
+                <p class="hover__title">Copywriting</p>
+                <p class="hover__text">
+                  When you stop expecting people to be perfect, you can like
+                  them for who they ara.
+                </p>
+                <p class="employee__name-hover">John Doe</p>
+                <div class="employee__ico-hover">
+                  <a href=""> <i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="column__item who-we">
+              <img
+                class="employee__img"
+                src="./src/img/whoWeAre/photo3.png"
+                alt="photo"
+              />
+              <p class="employee__name">John Doe</p>
+              <div class="employee__ico">
+                <a href=""> <i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="column__item-hover">
+                <p class="hover__title">Copywriting</p>
+                <p class="hover__text">
+                  When you stop expecting people to be perfect, you can like
+                  them for who they ara.
+                </p>
+                <p class="employee__name-hover">John Doe</p>
+                <div class="employee__ico-hover">
+                  <a href=""> <i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+          </div>
         </div>
-        <div class="layout-3-column"></div>
       </section>
-      <section about>
+      <section class="about" >
         <div class="wrapper about__wrapper">
           <h4 class="about__title">About Us</h4>
-          <p class="about__text"></p>
+          <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aliquam est rem earum blanditiis magnam repellat explicabo assumenda tenetur tempora quisquam ad aperiam corporis, distinctio omnis aliquid necessitatibus id. Asperiores.
+          Natus illum laborum corporis iure eligendi nobis, sunt non deleniti quaerat asperiores nemo veritatis ut qui accusamus explicabo ipsam rem earum voluptate eum saepe labore! Reprehenderit in dolorem eaque nisi?
+          Cupiditate tenetur eaque odit asperiores aliquam quos nihil nulla praesentium velit, veniam error molestiae incidunt consectetur soluta placeat suscipit! Atque quod molestias sapiente sed sequi rerum placeat, porro voluptates aliquam?
+          Veritatis expedita cupiditate velit unde obcaecati deleniti, quasi alias, laborum quia iusto molestias vero, accusamus repudiandae fugiat? Similique tempore officia repellendus nulla fugiat est, libero, inventore cumque laborum velit a!
+          Repudiandae earum, fuga itaque voluptas facere placeat quo, ratione saepe ipsum labore quaerat sit amet voluptatem et laborum porro asperiores molestias eveniet necessitatibus deleniti? Sunt quia maiores aut corrupti laborum.</p>
+          <div class="skills__title">Skills</div>
+          <div class="about__content">
+            <div class="skills">
+            <div class="skills__bar">
+              <div class="graphic">Graphic Design</div> 
+            </div>
+            <div class="skills__bar">
+              <div class="html">Html & CSS</div>
+            </div>
+            <div class="skills__bar ">
+             <div class="jquery">jQuery</div> </div>
+            <div class="skills__bar">
+              <div class="wordpress">Wordpress</div> </div>
+          </div>
+          <div class="join">
+            <p class="join__title">We`re Hiring</p>
+            <p class="join__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repudiandae dicta aperiam, reiciendis labore illum deserunt aut, beatae facilis obcaecati ullam nemo, temporibus illo voluptate odit asperiores adipisci amet! Possimus.</p>
+              <button class="join__btn">Join Us</button>
+          </div>
         </div>
-        <div class="skill"></div>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="wrapper footer__wrapper"></div>
+      <div class="wrapper footer__wrapper">
+        <p class="footer__title">Need hosting for files? We recommend DreamHost ultrafast SSD hosting, plust unlimited storage & bandwidth</p>
+        <button class="footer__btn">Get it now</button>
+      </div>
+      <div class="rights">	&copy;2020 All rights Reserved <span>FreeSchool, Documentation</span></div>
     </footer>
   </body>
 </html>

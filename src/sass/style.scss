@@ -1,4 +1,15 @@
+@import "../../node_modules/normalize.css/normalize";
 // Abstract
 @import "abstract/constants";
+@import "abstract/placeholders";
 
 @import "base/base";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/welcome";
+@import "layouts/what-do";
+@import "layouts/work";
+@import "layouts/employee";
+@import "layouts/about";
+@import "layouts/footer";

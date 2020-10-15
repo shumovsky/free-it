@@ -1,0 +1,25 @@
+.header {
+    background: $color-dark;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__img {
+    height: 60px;
+}
+
+.header__btn {
+    margin: 11px 6px;
+    text-transform: uppercase;
+    color: $color-light;
+    border: solid 1px $color-primary;
+    font-size: 1.6rem;
+    background: $color-dark;
+    &:hover {
+        color: $color-dark;
+        background: $color-primary;
+    }
+}

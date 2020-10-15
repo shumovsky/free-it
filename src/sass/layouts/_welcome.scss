@@ -1,0 +1,45 @@
+.welcome { 
+    background: url(./../img/advertisement/advertisementBackground.jpg), rgba($color-primary, 0.85);
+    background-blend-mode: overlay, color;
+}
+
+.welcome__wrapper {
+    padding: 12.2rem 0;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.welcome__content {
+    flex-basis: 33%;
+}
+
+.welcome__title {
+    text-transform: uppercase;
+    font-size: 3.3rem;
+    color: $color-dark;
+}
+.welcome__subtitle{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    color: $color-dark;
+}
+.welcome__text{
+    color: $color-light;
+}
+
+.welcome__img {
+    img{
+        width: 320px;
+        height: auto;
+    }
+   
+}
+
+.welcome__btn {
+    background: transparent;
+    font-size: 1.8rem;
+    &:hover {
+        background-color: $color-dark;
+        color: $color-light;
+    }
+}

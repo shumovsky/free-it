@@ -1,0 +1,116 @@
+.employee {
+    text-align: center;
+    padding: 5rem 0;
+    background: $color-dark;
+}
+
+.employee__title {
+    color: $color-light;
+}
+
+.employee__text {
+    position: relative;
+    color: $color-primary;
+    font-size: 2.3rem;
+    padding-bottom: 3rem;
+    &:after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 0.3rem;
+        background-color: $color-light;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.employee__img {
+    width: 100%;
+    height: auto;
+}
+
+.employee__name{
+    color: $color-primary;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.employee__ico {
+    display: flex;
+    justify-content: space-around;
+    width: 18rem;
+    margin: 0 auto;
+    a{  
+        position: relative;
+        background: $color-primary;
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    } 
+}
+.fab {
+    font-size: 2rem;
+    color: $color-dark;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.who-we {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.column__item-hover{
+    @extend %transition;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba($color: $color-primary, $alpha: .85);
+    top: 0;
+    left: 0;
+}
+.hover__title {
+    padding-top: 3rem;
+    font-size: 3rem;
+}
+
+.hover__text {
+    font-size: 2rem;
+}
+
+.employee__name-hover {
+    color: $color-dark;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 1rem 0;
+    padding-top: 47%;
+}
+
+.employee__ico-hover{
+    display: flex;
+    justify-content: space-around;
+    width: 18rem;
+    margin: 0 auto;
+    a{  
+        position: relative;
+        background: $color-light;
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        .fab{
+            color: $color-primary;
+        }
+    } 
+}
+
+.column__item-hover:hover {
+  opacity: 1;
+}
